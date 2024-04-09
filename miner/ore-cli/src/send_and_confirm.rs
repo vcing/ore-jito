@@ -64,7 +64,7 @@ impl Miner {
 
         let mut tip = Transaction::new_with_payer(
             &[
-                transfer(&jito_keypair.pubkey(), &tip_account, 1000000)
+                transfer(&jito_keypair.pubkey(), &tip_account, 10000)
             ],
             Some(&jito_keypair.pubkey()));
 
